@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import TodoTemplate from "./components/TodoTemplate";
 import TodoInsert from "./components/TodoInsert";
 import TodoList from "./components/TodoList";
+import "./App.css";
 
 const App = () => {
   // 내가 작성한 todo list data
@@ -76,10 +77,15 @@ const App = () => {
   return (
     <>
       <Header />
-      <TodoTemplate>
-        <TodoInsert onInsert={onInsert} />
-        <TodoList todos={todos} onRemove={onRemove} onToggle={onToggle} />
-      </TodoTemplate>
+      <main className="main">
+        <article className="left">hi</article>
+        <section className="right">
+          <TodoTemplate>
+            <TodoInsert onInsert={onInsert} />
+            <TodoList todos={todos} onRemove={onRemove} onToggle={onToggle} />
+          </TodoTemplate>
+        </section>
+      </main>
     </>
   );
 };
