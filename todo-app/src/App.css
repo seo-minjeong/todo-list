@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+@charset "utf-8";
+
+@font-face {
+  font-family: "pre-Black";
+  src: url("./assets/font/Pretendard-Black.otf");
+}
+@font-face {
+  font-family: "pre-Bold";
+  src: url("./assets/font/Pretendard-Bold.otf");
+}
+@font-face {
+  font-family: "pre-ExtraBold";
+  src: url("./assets/font/Pretendard-ExtraBold.otf");
+}
+@font-face {
+  font-family: "pre-Light";
+  src: url("./assets/font/Pretendard-Light.otf");
+}
+@font-face {
+  font-family: "pre-Medium";
+  src: url("./assets/font/Pretendard-Medium.otf");
+}
+@font-face {
+  font-family: "pre-Regular";
+  src: url("./assets/font/Pretendard-Regular.otf");
+}
+@font-face {
+  font-family: "pre-SemiBold";
+  src: url("./assets/font/Pretendard-SemiBold.otf");
+}
+@font-face {
+  font-family: "pre-Thin";
+  src: url("./assets/font/Pretendard-Thin.otf");
+}
+@font-face {
+  font-family: "pre-ExtraLight";
+  src: url("./assets/font/Pretendard-ExtraLight.otf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  font-family: "pre-Medium";
+  color: #222;
+  scroll-behavior: smooth;
 }
