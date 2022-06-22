@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import TodoTemplate from "./components/TodoTemplate";
 import TodoInsert from "./components/TodoInsert";
 import TodoList from "./components/TodoList";
+import NavBar from "./components/NavBar";
 import "./App.css";
 
 const App = () => {
@@ -78,7 +79,7 @@ const App = () => {
     <>
       <Header />
       <main className="main">
-        <article className="left">hi</article>
+        <NavBar className="left" />
         <section className="right">
           <TodoTemplate>
             <TodoInsert onInsert={onInsert} />

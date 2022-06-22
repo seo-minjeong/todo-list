@@ -1,16 +1,33 @@
 header {
   display: flex;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 40px;
   height: 70px;
   background: #fff;
-  box-shadow: 2px -8px 12px black;
+  box-shadow: 0px -1px 12px #eee;
 }
 .logo {
+  font-family: "PM", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #201f5a;
 }
 .logo_text {
-  margin-left: 15px;
+  margin-left: 20px;
   font-size: 20px;
   color: #201f5a;
   font-family: "pre-Black", sans-serif;
+}
+.login_wrap {
+  display: flex;
+  margin-left: auto;
+}
+.login_wrap .login {
+  font-size: 15px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.login_wrap .join {
+  font-size: 15px;
+  cursor: pointer;
 }
