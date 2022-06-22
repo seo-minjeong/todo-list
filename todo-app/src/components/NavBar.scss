@@ -1,11 +1,21 @@
 .navbar {
   width: 20%;
   height: 100%;
-  z-index: -1;
+  z-index: 0;
   background: #fff;
   box-shadow: 0px 1px 10px #eee;
 }
+.nav_list_wrap {
+  padding: 20px 40px;
+}
+.nav_title {
+  margin-bottom: 30px;
+  font-size: 17px;
+  color: #c4c4cc;
+}
 .nav_list {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  color: #c4c4cc;
   cursor: pointer;
 }

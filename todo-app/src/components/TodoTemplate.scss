@@ -1,9 +1,25 @@
+.TodoTemplate {
+  padding: 40px;
+  height: 100%;
+  font-family: "pre-Black", sans-serif;
+}
 .app-title {
+  display: flex;
+  align-items: baseline;
   font-size: 40px;
   color: #201f5a;
   font-weight: bold;
 }
-.TodoTemplate {
-  padding: 40px;
-  height: 100%;
+.add_btn_wrap {
+  margin-left: auto;
+}
+.add_btn {
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  background: #201f5a;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
 }
