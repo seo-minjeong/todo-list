@@ -1,8 +1,10 @@
 import React from "react";
-import { AiOutlineCalendar } from "react-icons/md";
+// import { useLocation } from "react-router-dom";
+// import { AiOutlineCalendar } from "react-icons/md";
 import "./NavBar.scss";
 
 const NavBar = () => {
+  // const { pathname } = useLocation();
   return (
     <nav className="navbar">
       <ul className="nav_list_wrap">

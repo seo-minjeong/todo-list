@@ -9,10 +9,7 @@ import "./App.css";
 const App = () => {
   const [number, setNumber] = useState(0);
   // prevNumbers는 현재 number 값을 가리킵니다.
-  const onIncrease = useCallback(
-    () => setNumber((prevNumber) => prevNumber + 1),
-    []
-  );
+  const onIncrease = useCallback(() => setNumber((prevNumber) => prevNumber + 1), []);
   // 내가 작성한 todo list data
   const [todos, setTodos] = useState(createBulkTodos);
 
@@ -72,7 +69,7 @@ const App = () => {
   // todo 데이터
   function createBulkTodos() {
     const array = [];
-    for (let i = 1; i <= 2500; i++) {
+    for (let i = 1; i <= 4; i++) {
       array.push({
         id: i,
         text: `할 일 ${i}`,

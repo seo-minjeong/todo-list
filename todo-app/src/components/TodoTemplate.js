@@ -1,7 +1,7 @@
 import React from "react";
 import "./TodoTemplate.scss";
 
-const TodoTemplate = ({ children }) => {
+const TodoTemplate = ({ children, props }) => {
   return (
     <div className="TodoTemplate">
       <div className="app-title">
